@@ -1,7 +1,13 @@
+@use '../mixins/responsive.scss' as *;
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
-  font-family: sans-serif;
+  background-color: var(--color-white);
+  font-family: "Inter", sans-serif;
+  padding-inline: 16px;
+  @include responsive (desktop){
+    margin-block: auto;
+    padding-inline: 165px;
+  }
 }

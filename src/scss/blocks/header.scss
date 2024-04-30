@@ -1,0 +1,7 @@
+@use '../mixins/responsive.scss' as *;
+.header__top{
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+} 

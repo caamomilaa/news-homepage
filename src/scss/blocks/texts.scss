@@ -1,1 +1,10 @@
-
+.text{
+    font-size: var(--text);
+    line-height: 26px;
+    &--silver{
+        color: var(--color-silver);
+    }
+    &--grey{
+        color: var(--color-grey);
+    }
+}

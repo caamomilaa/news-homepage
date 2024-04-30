@@ -1,1 +1,37 @@
 
+.title{
+    font-weight: 700;
+    &--xl{
+        font-size: var(--title-xl);
+        line-height: 56px;
+    }
+    &--l{
+        font-size: var(--title-l);
+        line-height: 40px;
+    }
+    &--m{
+        font-size: var(--title-m);
+        line-height: 32px;
+    }
+    &--m{
+        font-size: var(--title-m);
+        line-height: 32px;
+    }
+    &--s{
+        font-size: var(--title-s);
+        line-height: 24px;
+    }
+    &--xs{
+        font-size: var(--title-xs);
+        line-height: 32px;
+    }
+    &--white{
+        color: var(--color-white);
+    }
+    &--yellow{
+        color: var(--color-yellow);
+    }
+    &--black{
+        color: var(--color-black);
+    }
+}
