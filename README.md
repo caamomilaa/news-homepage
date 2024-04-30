@@ -1,4 +1,4 @@
-# Título del proyecto
+# NEWS HOMEPAGE
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/caamomilaa/news-homepage/main/design/desktop-preview.jpg)
 
