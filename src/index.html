@@ -37,17 +37,18 @@
       </div>
     </header>
     <main class="main">
+      <div class="news">
         <div class="newsflash">
           <picture>
-            <source media="(768px)" srcset="./assets/images/image-web-3-desktop.jpg">
-            <source media="(360px)" srcset="./assets/images/image-web-3-mobile.jpg">
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+            <source media="(min-width:768px)" srcset="./assets/images/image-web-3-desktop.jpg">
+            <source media="(min-width:360px)" srcset="./assets/images/image-web-3-mobile.jpg">
+            <img class="newsflash__img" src="./assets/images/image-web-3-mobile.jpg" alt="">
           </picture>
           <div class="newsflash__container">
-            <h1 class="tittle title--l">The Bright Future of Web 3.0?</h1>
+            <h1 class="title title--l">The Bright Future of Web 3.0?</h1>
             <div class="newsflash__item">
               <p class="text text--grey">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-              <a href="#">READ MORE</a>
+              <a class="button" href="#">READ MORE</a>
             </div>
           </div>
         </div>
@@ -66,24 +67,37 @@
             <p class="text text--silver">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </article>                      
         </div>
+      </div>
         <section class="section">
           <article class="section__item">
-            <img src="./assets/images/image-retro-pcs.jpg" alt="">
-            <span class="title title--m title--grey">01</span>
-            <h3 class="title title--xs title--black">Reviving Retro PCs</h3>
-            <p class="text text--grey">What happens when old PCs are given modern upgrades?</p>
+            <img class="section__img" src="./assets/images/image-retro-pcs.jpg" alt="">
+            <div class="section__text">
+              <span class="title title--m title--silver">01</span>
+              <a href="#">
+                <h3 class="title title--xs title--black">Reviving Retro PCs</h3>
+              </a>
+              <p class="text text--grey">What happens when old PCs are given modern upgrades?</p>
+            </div>
           </article>
           <article class="section__item">
-            <img src="./assets/images/image-top-laptops.jpg" alt="">
-            <span class="title title--m title--grey">02</span>
-            <h3 class="title title--xs title--black">Top 10 Laptops of 2022</h3>
-            <p class="text text--grey">Our best picks for various needs and budgets.</p>
+            <img class="section__img" src="./assets/images/image-top-laptops.jpg" alt="">
+            <div class="section__text">
+              <span class="title title--m title--silver">02</span>
+              <a href="#">               
+                <h3 class="title title--xs title--black">Top 10 Laptops of 2022</h3>
+              </a>
+              <p class="text text--grey">Our best picks for various needs and budgets.</p>
+            </div>
           </article>
           <article class="section__item">
-            <img src="./assets/images/image-gaming-growth.jpg" alt="">
-            <span class="title title--m title--grey">03</span>
-            <h3 class="title title--xs title--black">The Growth of Gaming</h3>
-            <p class="text text--grey">How the pandemic has sparked fresh opportunities.</p>
+            <img class="section__img" src="./assets/images/image-gaming-growth.jpg" alt="">
+            <div class="section__text">
+              <span class="title title--m title--silver">03</span>
+              <a href="#">              
+                <h3 class="title title--xs title--black">The Growth of Gaming</h3>
+              </a>
+              <p class="text text--grey">How the pandemic has sparked fresh opportunities.</p>
+            </div>
           </article>
         </section>
       </div>

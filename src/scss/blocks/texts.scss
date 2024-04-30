@@ -1,6 +1,7 @@
 .text{
     font-size: var(--text);
     line-height: 26px;
+    margin: 0;
     &--silver{
         color: var(--color-silver);
     }

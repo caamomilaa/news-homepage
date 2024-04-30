@@ -1,0 +1,17 @@
+@use '../mixins/responsive.scss' as *;
+.section{
+    margin-bottom: 80px;
+    &__item{
+        display: flex;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+    &__img{
+        width: 100px;
+        height: 129px;
+    }
+    @include responsive (laptop){
+        display: flex;
+        gap: 30px;
+    }
+}

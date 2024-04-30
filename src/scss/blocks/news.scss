@@ -1,0 +1,8 @@
+@use '../mixins/responsive.scss' as *;
+.news{
+    @include responsive (laptop){
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+    }
+}

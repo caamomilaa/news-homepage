@@ -1,0 +1,11 @@
+@use '../mixins/responsive.scss' as *;
+.new{
+    background-color: var(--color-darkblue);
+    padding: 24px 20px 24px 21px;
+    margin-bottom: 64px;
+}
+.new__item--line{
+    padding-bottom: 29px;
+    border-bottom:  1px solid var(--color-silver);
+    margin-bottom: 31px;
+}

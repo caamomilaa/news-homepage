@@ -1,23 +1,26 @@
 @use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
 .menu {
     display: flex;
     position: absolute;
     top: 0;
     left: 119px;
     translate: 100%;
-    width: 256px;
+    width: 258px;
     height: 100vh;
     background-color: var(--color-white);
     flex-direction: column;
     padding: 144px 29px 0 24px ;
     @include responsive (laptop){
+        width: 431px;
+        left: 100%;
+        translate: -100%;
         flex-direction: row;
         background-color: transparent;
         height: 0;
         padding-block: 39px 55px ;
         padding-inline: 0;
-        left: 0;
-        margin-left: auto;
+        justify-content: space-between;
     }
   }
 .show{
@@ -37,4 +40,9 @@
     font-size: var(--title-xs);
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
+}
+.menu__link{
+    @include hover{
+        color: var(--color-red);
+    }
 }

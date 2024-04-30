@@ -1,7 +1,10 @@
 @use '../mixins/responsive.scss' as *;
 .header__top{
     position: relative;
+    display: flex;
+    align-items: center;
     padding-top: 28px;
     padding-bottom: 32px;
-    justify-content: space-between;
+    overflow-x: clip;
+    padding-inline: 16px;
 } 

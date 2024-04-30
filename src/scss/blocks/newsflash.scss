@@ -1,0 +1,11 @@
+@use '../mixins/responsive.scss' as *;
+.newsflash{
+    margin-bottom: 64px;
+}
+.newsflash__img{
+  margin-bottom: 24px;
+  @include responsive (laptop){
+    margin-bottom: 28px;
+    max-width: 730px;
+  }
+}
